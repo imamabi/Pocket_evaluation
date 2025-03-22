@@ -27,6 +27,10 @@ The pipeline is designed to be modular, reproducible, and adaptable to different
  - Solvate the system using the TIP3P water model.
  - Neutralize the system with counterions and set physiological ionic strength.
  - Perform energy minimization, equilibration (NVT and NPT), and production MD using the AMBER14SB force field.
+```bash
+cd data
+bash run_simulation.sh
+```
          
 ## Post-Simulation Analysis: 
  - Calculate RMSD and RMSF to assess protein stability and residue flexibility.
