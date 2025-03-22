@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     1:
+HEADER 0  - Pocket Score                      : 0.1910
+HEADER 1  - Drug Score                        : 0.0045
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 4.0650
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6256
+HEADER 5  - Mean B-factor of pocket residues  : 0.1469
+HEADER 6  - Hydrophobicity Score              : -5.3333
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 331.7563
+HEADER 10 - Pocket volume (convex hull)       : 9.2970
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.2727
+ATOM    136   CGAGLU A  46     -18.386  31.159  -0.311  0.00  0.00           C 0
+ATOM    140  OE1AGLU A  46     -19.035  30.320  -2.456  0.68  2.14           O 0
+ATOM    144    N GLY A  47     -16.336  28.339   1.924  0.00  0.00           N 0
+ATOM    134   CBAGLU A  46     -18.847  29.875   0.337  0.00  0.00           C 0
+ATOM    736   NEAARG A 112     -12.339  24.695  -1.313  0.00  0.00           N 0
+ATOM    145   CA GLY A  47     -14.915  28.127   2.064  0.00  0.00           C 0
+ATOM    742  NH2AARG A 112     -11.251  25.535  -3.121  0.00  0.00           N 0
+ATOM    732   CGAARG A 112     -13.672  24.222   0.641  0.00  0.00           C 0
+ATOM    761   CDAARG A 114     -19.822  22.063  -2.196  0.00  0.00           C 0
+ATOM    757   CBAARG A 114     -19.886  24.498  -1.311  0.00  0.00           C 0
+ATOM    747    O ALA A 113     -18.148  26.310   1.575  0.76  2.14           O 0
+ATOM    751   CAAARG A 114     -20.120  25.419  -0.113  0.00  0.00           C 0
+ATOM    536   CD ARG A  94     -16.125  19.020   0.916  0.00  0.00           C 0
+ATOM    537   NE ARG A  94     -17.533  18.761   0.637  0.00  0.00           N 0
+ATOM    767  NH1AARG A 114     -19.738  19.691  -3.834  0.00  0.00           N 0
+ATOM    728    OAARG A 112     -16.599  23.293   1.497  0.64  1.07           O 0
+ATOM    734   CDAARG A 112     -12.668  23.673  -0.347  0.00  0.00           C 0
+ATOM    132    OAGLU A  46     -16.135  30.581   1.892  0.36  7.50           O 0
+ATOM    130    CAGLU A  46     -16.838  29.567   1.855  0.00  0.00           C 0
+TER
+END
