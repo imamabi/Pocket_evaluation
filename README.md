@@ -34,6 +34,6 @@ The pipeline is designed to be modular, reproducible, and adaptable to different
  - Analyze trajectories to understand conformational dynamics.
          
 ## Visualization and Reporting : 
- - Generate plots (e.g., RMSD, RMSF, SASA) and summaries to interpret results. see Notebook
+ - Generate plots (e.g., RMSD, RMSF, SASA) and summaries to interpret results. see [Notebook](./plot.ipynb)
          
      
