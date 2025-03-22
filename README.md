@@ -11,13 +11,14 @@ The pipeline is designed to be modular, reproducible, and adaptable to different
 ## Installation 
 ### Prerequisites 
   - Python 3.x : Ensure Python is installed with necessary libraries (numpy, matplotlib, seaborn).
-  - GROMACS : Install GROMACS for molecular dynamics simulations.
+  - GROMACS : Install the [GROMACS](https://manual.gromacs.org/2024.4/install-guide/index.html) for molecular dynamics simulations.
   - Fpocket : Install [Fpocket](https://github.com/Discngine/fpocket/blob/master/doc/INSTALLATION.md) for druggable pocket detection.
-  - H++ Server : Accessible online for protonation state calculations.
-    System Preparation : 
-        Obtain the initial protein structure from the RCSB Protein Data Bank (PDB).
-        Remove non-protein entities (e.g., water, ligands, ions).
-        Use the H++ server to assign correct protonation states at physiological pH.
+  - [H++ Server](http://newbiophysics.cs.vt.edu/H++/): Accessible online for protonation state calculations.
+
+System Preparation : 
+     Obtain the initial protein structure 6UMV from the RCSB Protein Data Bank (PDB).
+     Remove non-protein entities (e.g., water, ligands, ions).
+     Use the H++ server to assign correct protonation states at physiological pH.
          
 
     Pocket Detection : 
