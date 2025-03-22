@@ -29,13 +29,16 @@ The pipeline is designed to be modular, reproducible, and adaptable to different
  - Perform energy minimization, equilibration (NVT and NPT), and production MD using the AMBER14SB force field.
 ```bash
 cd data
-bash run_simulation.sh
+bash ../run_simulation.sh
 ```
          
 ## Post-Simulation Analysis: 
  - Calculate RMSD and RMSF to assess protein stability and residue flexibility.
  - Compute SASA for heavy atoms in identified pockets to evaluate solvent accessibility.
  - Analyze trajectories to understand conformational dynamics.
+```bash
+bash ../analyze_quick.sh
+```
          
 ## Visualization and Reporting : 
  - Generate plots (e.g., RMSD, RMSF, SASA) and summaries to interpret results. see [Notebook](./plot.ipynb)
